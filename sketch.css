@@ -1,0 +1,45 @@
+body { 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    font-family: "anton", sans-serif;
+    font-size: 50px;
+    color: orange;
+    text-shadow: 2px 2px 4px rgb(48, 3, 3);
+}
+
+span{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 70px;
+}
+
+.big_container{
+    background: #8faf6a1c;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: -50px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgb(73, 5, 5);
+}
+
+#change_grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+#changeSize, #resetBoard{
+    border: none;
+    width: 105px;
+    height: 25px;   
+    background-color: #2ccc6f;
+    box-shadow: 0 4px 8px rgb(48, 3, 3);
+}
+
+#changeSize:hover, #resetBoard:hover{
+    background-color: orange;
+}
+
